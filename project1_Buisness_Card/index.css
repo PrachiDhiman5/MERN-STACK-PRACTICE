@@ -1,0 +1,34 @@
+body{
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: rgb(249, 241, 241);
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.left{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    padding-left: 10px;
+}
+
+#img1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
